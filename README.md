@@ -12,6 +12,12 @@
 @Component 已经可以支持声明一个 bean 了，为何还要再弄个 @Bean 出来？
 答案请写在对应分支的 README.md 文件中
 
+
+___
+@Component 表明被标注的类会整个作为一个bean，放在容器中
+@Bean 通常标注是在一个方法上，会将此方法的返回作为一个bean放容器中
+___
+
 ### Problem 2
 
 分支：p2-starts-from-here
