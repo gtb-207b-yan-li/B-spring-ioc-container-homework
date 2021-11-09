@@ -21,7 +21,7 @@ public class Bar implements ApplicationContextAware, InitializingBean {
     }
 
     @Override
-    public void afterPropertiesSet() throws Exception {
+    public void afterPropertiesSet() {
         foo = context.getBean(Foo.class);
     }
 
